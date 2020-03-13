@@ -1,0 +1,35 @@
+﻿  ui.c
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(19,31): warning C4013: 'atoi' undefined; assuming extern returning int
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(71,28): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(23,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(24,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(35,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(36,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(53,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(83,6): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(84,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(86,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(90,1): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(92,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(93,1): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(79,7): warning C4101: 'command': unreferenced local variable
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(101,1): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(104,1): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(99,6): warning C4101: 'i': unreferenced local variable
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(115,1): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(118,1): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : see declaration of 'strtok'
+C:\Users\Mihai\Desktop\oop asssignments\oop3\ui.c(113,6): warning C4101: 'i': unreferenced local variable
+  oop3.vcxproj -> C:\Users\Mihai\source\repos\oop3\Debug\oop3.exe
