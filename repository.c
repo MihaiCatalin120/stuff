@@ -2,14 +2,16 @@
 #include "gear.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 Repository create_repository() {
-	Repository repository;
-	repository = *(Repository*)malloc(sizeof(repository));
-	repository.length = 0;
-	repository.capacity = 1;
-	repository.elements = (Gear*)malloc(repository.capacity * sizeof(Gear));
-	return repository;
+	Repository* repository;
+	repository = (Repository*)malloc(sizeof(repository));
+	repository->length = 0;
+	repository->capacity = 1;
+	repository->elements = (Gear*)malloc(repository->capacity * sizeof(Gear));
+
+	return *repository;
 }
 
 int search(Repository* repository, int catalogue_number)
@@ -34,9 +36,9 @@ int search_type(Repository* repository, char* target_type)
 	return 0;
 }
 
-void add_element(Repository* repository, Gear* element)
+void add_element(Repository* repository, Gear* gear)
 {
-	repository->elements[repository->length++] = *element;
+	repository->elements[repository->length++] = *gear;
 	if (repository->length >= repository->capacity) {
 		resize(repository);
 	}
@@ -54,14 +56,14 @@ void resize(Repository* repository)
 	free(new_elements);
 }
 
-void update_element(Repository* repository, Gear* element)
+void update_element(Repository* repository, Gear* gear)
 {
 	int i;
 	for (i = 0; i < repository->length; i++) {
-		if (repository->elements[i].catalogue_number == element->catalogue_number) {
-			set_state(&repository->elements[i], element->state);
-			set_type(&repository->elements[i], element->type);
-			set_value(&repository->elements[i], element->value);
+		if (repository->elements[i].catalogue_number == gear->catalogue_number) {
+			set_state(&repository->elements[i], gear->state);
+			set_type(&repository->elements[i], gear->type);
+			set_value(&repository->elements[i], gear->value);
 			return;
 		}
 	}

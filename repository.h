@@ -21,10 +21,10 @@ int search(Repository* repository, int catalogue_number);
 int search_type(Repository* repository, char* target_type);
 
 //adds the element in the repository
-void add_element(Repository* repository, Gear* element);
+void add_element(Repository* repository, Gear* gear);
 
 //updates the given element in the repository
-void update_element(Repository* repository, Gear* element);
+void update_element(Repository* repository, Gear* gear);
 
 //deletes the given element in the repository
 void delete_element(Repository* repository, int target_catalogue_number);
